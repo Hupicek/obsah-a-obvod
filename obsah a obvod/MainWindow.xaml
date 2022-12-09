@@ -1,0 +1,35 @@
+﻿<Window x:Class="obsah_a_obvod.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:obsah_a_obvod"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="400">
+    <Grid Background="Gray">
+        <Label FontSize="30" Foreground="Orange">
+            Strana A:
+        </Label>
+        <TextBox Height="40" Margin="0,40,0,604" Name="A" >
+
+        </TextBox>
+        <Label FontSize="30" Margin="0,80,0,560"  Foreground="Yellow">
+
+            Strana B:
+        </Label>
+        <TextBox Height="40" Margin="0,129,0,515" Name="B" >
+
+        </TextBox>
+        <Label FontSize="30" Margin="0,169,0,141"  Foreground="Cyan">
+            Strana C:
+        </Label>
+        <TextBox Height="40" Margin="0,212,0,432" Name="C" >
+
+        </TextBox>
+        <Image Source="img/koska.png" Margin="0,72,0,-72">
+
+        </Image>
+        <Button Margin="0,581,0,10" Click="Button_Click" Content="vypocitat" FontSize="50"/>
+
+    </Grid>
+</Window>
